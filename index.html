@@ -5,21 +5,26 @@
   <title>Agenda été</title>
   <link rel="stylesheet" href="style.css">
  
+  <script defer src="nav.js"></script>
   <script defer src="main.js"></script>
 </head>
 <body>
   <div class="agenda-wrapper">
     <header class="agenda-header">
-      <h1>Agenda – Juin · Juillet · Août</h1>
-      <p>10 lignes pour planifier ton été. Clique dans une case pour écrire.</p>
-    </header>
+    <h1 id="titre-mois"></h1>
+
+    <div>
+        <button id="prev-month">◀️</button>
+        <button id="next-month">▶️</button>
+    </div>
+</header>
 
     <!-- Grille principale -->
     <div class="agenda-grid">
       <!-- Entêtes des mois -->
-      <div class="month-header">Juin</div>
-      <div class="month-header">Juillet</div>
-      <div class="month-header">Août</div>
+      <div class="month-header first">Juin</div>
+      <div class="month-header second">Juillet</div>
+      <div class="month-header third">Août</div>
 
       <!-- 10 lignes -->
       <!-- Ligne 1 -->
