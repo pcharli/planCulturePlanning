@@ -1,6 +1,8 @@
 # test cultures dans planning
 **Objectif :** tester le positionnement des cultures sur des planches dans un planning
 
+** ATTENTION : ce n'est qu'un test, le planning n'intègre pas les années et autres détails **
+
 ## Approche
 ### Affichage du calendrier
 - affichage de trois mois côte à côte
